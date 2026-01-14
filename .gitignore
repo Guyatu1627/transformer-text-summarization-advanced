@@ -1,0 +1,12 @@
+venv/
+results/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.model
+*.bin
+*.pth
+*.safetensors
+wandb/
+C:\Users\Guyatu\.gemini\antigravity\brain\
