@@ -1,9 +1,16 @@
-# transformer-text-summarization-advanced
+## Transformer-Based Text Summarization System
 
-An advanced text summarization project using BART and FastAPI.
+State-of-the-art abstractive summarization using Hugging Face Transformers.
 
-## Setup
+## Features
+- Model comparison: BART-large-cnn, T5-base, PEGASUS
+- Fine-tuning on CNN/DailyMail
+- Optuna hyperparam tuning + early stopping
+- Advanced generation (beam search, length penalty)
+- Metrics: ROUGE-1/2/L, BERTScore
+- Deployment: FastAPI inference API
 
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the script: `python text_summarization.py`
-3. Access API: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+## Run
+```bash
+pip install -r requirements.txt
+python text_summarization.py
